@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+#mainMenu {
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+}
+*/
+#mainMenu li {
+    display: block;
+    /*	width:120px;*/
+    float: left;
+    margin-left: 5px;
+    border: 1px solid #000;
+    margin-top: 5px;
+}
+
+#mainMenu a {
+    display: block;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    background-color: #08A293
+		;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+#mainMenu a:hover {
+    background-color: #63AB45;
+    color: #fff;
+}
+#mainMenu li a {
+}
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: medium;
+}
+h1 {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #08A293;
+    font-size: xx-large;
+}
+#honeybees article .small_heading {
+}
+#honeybees article .small_heading {
+}
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+ul{
+    list-style-type: none;
+    margin-left: -42px;
+    padding-top: 0px;
+}
